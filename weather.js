@@ -56,7 +56,7 @@ btn.addEventListener("click",async (evt)=>{
                 let temp = Math.floor((result.main.temp - 32)*(5/9));
                 let humidity = result.main.humidity;
                 let temp_feels_like = Math.floor((result.main.feels_like - 32)*(5/9));
-                let wind_speed = result.wind.speed;
+                let wind_speed = (result.wind.speed * 1.60).toFixed(2);
                 if(temp>45){
                     temp_in_text.innerText = "Excessive Heat";
                 }else if(temp<=15 && temp>=10){
