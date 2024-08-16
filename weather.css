@@ -121,3 +121,48 @@
     line-height: 4px;
 }
 
+
+.five_day_forecast {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #c3e4f3;
+    color: #0c4561;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.five_day_forecast h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.forecast_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast_item {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #edf9ff;
+    width: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.forecast_item img {
+    width: 50px;
+}
+
+.forecast_item h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.forecast_item p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+
